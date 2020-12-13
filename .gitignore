@@ -15,6 +15,16 @@ local.properties
 .loadpath
 .recommenders
 
+## ignoring target file
+target/
+
+.project
+.classpath
+*/.git/*
+.git
+.deployables
+
+
 # External tool builders
 .externalToolBuilders/
 
@@ -94,12 +104,3 @@ local.properties
 hs_err_pid*
 
 # End of https://www.toptal.com/developers/gitignore/api/java,eclipse
-
-## ignoring target file
-target/
-
-.project
-.classpath
-*/.git/*
-.git
-.deployables
